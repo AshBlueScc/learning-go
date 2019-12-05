@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="" />
+    <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/configure/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/configure/example1_read_configuration.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/mvc/example1_mvc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/mvc/example2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example1_listen_port.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example2_solve_requests.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example3_request_get.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example4_request_post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example5_request_putAndDelete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example6_route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/requests/example7_route_party.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +47,29 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1USj7eSflKVBo3mHECIEwxRqQ4Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoLearning/test" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.dep" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\chengzhen\cz-goland-workspqce\GoLearning\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\chengzhen\cz-goland-workspqce\GoLearning\iris\requests" />
       <recent name="E:\chengzhen\cz-goland-workspqce\goTest\recursive" />
     </key>
   </component>
@@ -55,63 +85,104 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build goTest/recursive">
+  <component name="RunManager" selected="Go Build.go build goTest/iris/mvc">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Factorial.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goTest/iris/configure" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/recursive/Factorial.go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/iris/configure/example1_read_configuration.go" />
+      <package value="goTest/iris/configure" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Fibonacci.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/recursive/Fibonacci.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Recursive.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Recursive.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build goTest/recursive" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goTest/iris/mvc (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/recursive/Test1.go" />
-      <package value="goTest/recursive" />
+      <filePath value="$PROJECT_DIR$/iris/mvc/example2.go" />
+      <package value="goTest/iris/mvc" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build goTest/iris/mvc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/iris/mvc/example1_mvc.go" />
+      <package value="goTest/iris/mvc" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <method v="2" />
     </configuration>
+    <configuration name="go test goTest/iris/mvc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/iris/mvc" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="goTest/iris/mvc" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench goTest/iris/mvc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/iris/mvc" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="goTest/iris/mvc" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build goTest/iris/configure" />
+      <item itemvalue="Go Test.go test goTest/iris/mvc" />
+      <item itemvalue="Go Test.gobench goTest/iris/mvc" />
+      <item itemvalue="Go Build.go build goTest/iris/mvc" />
+      <item itemvalue="Go Build.go build goTest/iris/mvc (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build goTest/recursive" />
-        <item itemvalue="Go Build.go build Fibonacci.go" />
-        <item itemvalue="Go Build.go build Factorial.go" />
-        <item itemvalue="Go Build.go build Recursive.go" />
+        <item itemvalue="Go Build.go build goTest/iris/mvc" />
+        <item itemvalue="Go Build.go build goTest/iris/mvc (1)" />
+        <item itemvalue="Go Test.gobench goTest/iris/mvc" />
+        <item itemvalue="Go Test.go test goTest/iris/mvc" />
+        <item itemvalue="Go Build.go build goTest/iris/configure" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.io</proxy>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;string&quot;)(824635987408)" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
