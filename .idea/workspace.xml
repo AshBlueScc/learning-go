@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/configure/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/configure/example1_read_configuration.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/mvc/example1_mvc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/mvc/example2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example1_listen_port.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example2_solve_requests.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example3_request_get.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example4_request_post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example5_request_putAndDelete.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example6_route.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/requests/example7_route_party.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
