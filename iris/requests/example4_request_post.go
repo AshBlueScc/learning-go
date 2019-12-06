@@ -25,7 +25,8 @@ func main() {
 		app.Logger().Info(path)
 		//获取请求字段
 
-		//这个拿不到params里面的参数，暂时不知道这个方法是干啥用的
+		//这个拿不到params里面的参数
+		//PostValue用于表单提交，html里面的input
 		//name := context.PostValue("name")
 
 		name := context.FormValue("name")

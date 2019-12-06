@@ -14,6 +14,7 @@ func main() {
 	//注册自定义控制器处理请求
 	app := iris.New()
 
+	//Handie或者下面的Configure用一个就行
 	mvc.New(app).Handle(new(CustomController))
 
 	mvc.Configure(app.Party("/user"), func(mvc *mvc.Application){
