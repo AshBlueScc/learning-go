@@ -9,17 +9,10 @@ import (
 
 var Engine *xorm.Engine
 
-type Category struct {
-	Id           int `xorm:"pk autoincr"`
-	CategoryId   int
-	CategoryName string
-	Logo         string
-}
-
 //为了复用，发现写在main外面更方便点...
 func connect() *xorm.Engine {
 	driverName := "mysql"
-	dataSourceName := "root:admin@tcp(127.0.0.1:3306)/du?charset=utf8"
+	dataSourceName := "root:admin@tcp(127.0.0.1:3306)/test?charset=utf8"
 	engine, err := xorm.NewEngine(driverName, dataSourceName)
 
 	if err != nil {

@@ -17,6 +17,7 @@ require (
 	github.com/iris-contrib/formBinder v5.0.0+incompatible // indirect
 	github.com/iris-contrib/go.uuid v2.0.0+incompatible // indirect
 	github.com/json-iterator/go v1.1.8 // indirect
+	github.com/juju/errors v0.0.0-20181118221551-089d3ea4e4d5
 	github.com/kataras/golog v0.0.9 // indirect
 	github.com/kataras/iris v11.1.1+incompatible
 	github.com/klauspost/compress v1.9.4 // indirect

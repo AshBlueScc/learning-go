@@ -5,11 +5,6 @@ import (
 	"xorm.io/core"
 )
 
-type User struct {
-	ID   int    `xorm:"id"`
-	Name string `xorm:"name"`
-	Age  int    `xorm:"age"`
-}
 
 func CreateTablesTest() {
 	var engine = GetEngine()
@@ -35,3 +30,6 @@ func CreateTablesTest() {
 	}
 
 }
+
+
+
