@@ -1,5 +1,7 @@
 package officialDocMethods
 
+import "time"
+
 //name mapping rule
 //源自接口 xorm.IMapper
 //三种映射规则：（结构体名称到table名称的映射）
@@ -33,4 +35,5 @@ package officialDocMethods
 type User struct {
 	Id   int64
 	Name string  `xorm:"varchar(25) not null unique 'usr_name' comment('NickName')"`
+	CreatedAt time.Time `xorm:"created"`
 }

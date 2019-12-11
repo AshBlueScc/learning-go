@@ -54,4 +54,3 @@ ctrl+ait+L 快速代码格式化
 
 References:
 1.https://blog.csdn.net/qfzhangxu
-2.xorm官方文档：http://gobook.io/read/gitea.com/xorm/manual-en-US/

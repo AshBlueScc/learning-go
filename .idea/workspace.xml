@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xorm/mysql/example0_mysql_entity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/mysql/example5_bytes_string_transfer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example0_create_orm_engine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example1_define_a_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example2_database_schema_operation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example3_insert_recoeds.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example4_query_and_count_records.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example5_update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/login/controller/adminController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/login/entity/admin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/login/entity/city.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/login/service/adminService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example10_FAQ.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example11_commands.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example12_cases.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example6_delete_one_or_more_records.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example7_execute_sql_query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example8_cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example9_event.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/mysql/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/mysql/example1_mysql_connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/mysql/example1_mysql_connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/mysql/example2_mysql_create_tables.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/mysql/example2_mysql_create_tables.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/mysql/example3_mysql_insert_tables.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/mysql/example3_mysql_insert_tables.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/mysql/example4_mysql_query_tables.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/mysql/example4_mysql_query_tables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xorm/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/mysql/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xorm/officialDocMethods/example1_define_a_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example1_define_a_struct.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +76,11 @@
       <recent name="E:\chengzhen\cz-goland-workspqce\GoLearning\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\projects\login\controller" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\mysql" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\officialDocMethods" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\mysql" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\util" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\basic" />
     </key>
   </component>
   <component name="RunDashboard">
