@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/login/controller/adminController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/login/entity/admin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/login/entity/city.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/login/service/adminService.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example10_FAQ.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example11_commands.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example12_cases.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example6_delete_one_or_more_records.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example7_execute_sql_query.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example8_cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example9_event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/database/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/database/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/database/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/login/admin/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/login/admin/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/types/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/utils/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/example0_login_project/utils/utils.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/mysql/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xorm/officialDocMethods/example1_define_a_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/xorm/officialDocMethods/example1_define_a_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/login/controller/adminController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/login/entity/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/login/entity/city.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/login/service/adminService.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +79,11 @@
       <recent name="E:\chengzhen\cz-goland-workspqce\GoLearning\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\projects\example0_login_project" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\projects\example0_login_project\login\admin" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\projects\example0_login_test" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\projects\login\database" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\projects\login\controller" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\mysql" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\officialDocMethods" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\xorm\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,12 +98,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build xorm/projects/example0_login_project">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build xorm/projects/example0_login_project" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/projects/example0_login_project/main.go" />
+      <package value="xorm/projects/example0_login_project" />
       <method v="2" />
     </configuration>
     <configuration name="go build xorm/xorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -121,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build xorm/projects/example0_login_project" />
         <item itemvalue="Go Build.go build xorm/xorm" />
       </list>
     </recent_temporary>
