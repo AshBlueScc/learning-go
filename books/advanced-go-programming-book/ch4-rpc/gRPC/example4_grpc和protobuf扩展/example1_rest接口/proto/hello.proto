@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package proto;
+
+import "google/api/annotations.proto";
+
+
+message StringMessage {
+    string value = 1;
+}
+
+service RestService {
+    rpc Get(StringMessage) returns (StringMessage) {
+        option (google.api.http) = {
+			get: "/get/{value}"
+		};
+    }
+    rpc Post(StringMessage) returns (StringMessage) {
+        option (google.api.http) = {
+			post: "/post"
+			body: "*"
+		};
+    }
+}
+/**
+通过以下命令安装protoc-gen-grpc-gateway插件：
+go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
+
+protoc -I.  //指定所需的proto文件汇集在哪里（过程中）.表示当前目录
+        -IC:/Go/bin/pkg/mod/github.com/grpc-ecosystem/grpc-gateway@v1.12.1/third_party/googleapis   //所需的anotations.proto所在位置
+        -IC:/Go/bin/src/github.com  //protoc下载时候的include文件里面的proto文件所在位置
+        --grpc-gateway_out=.    //gw.go文件输出位置
+        --go_out=plugins=grpc:. hello.proto     //pb.go文件输出位置
+**/

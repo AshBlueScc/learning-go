@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package main;
+
+import "github.com/mwitkow/go-proto-validators@v0.2.0/validator.proto";
+
+message Message {
+     string important_string = 1 [(validator.field) = {regex: "^[a-z]{2,5}$"}];
+     int32 age = 2 [(validator.field) = {int_gt: 0, int_lt: 100}];    //报错是因为插件问题，不影响编译
+}
+
+/*
+使用该验证器首先需要下载其提供的代码生成插件:
+ go get github.com/mwitkow/go-proto-validators/protoc-gen-govalidators          //用于生成**.validator.pb.go文件
+
+protoc -IC:/Go/bin/pkg/mod/            //validator.proto所在文件夹目录
+        -IC:/Go/bin/src/github.com   //把protoc.exe下载的时候带的include文件复制到google下面，后面编译的时候需要，这个带了google这个文件下面的所有所需proto
+        --proto_path=.              //把所需的proto文件集合起来，过程中，当前文件目录下(.表示)
+        --govalidators_out=.          //**.validator.pb.go文件输出位置
+        --go_out=plugins=grpc:. hello.proto         //**.pb.go文件输出位置
+编译过程中需要的proto文件和引用的
+*/

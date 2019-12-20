@@ -3,4 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProtolintService">
+    <option name="executable" value="$PROJECT_DIR$/../../../插件/protoc-3.11.1-win64/bin/protoc.exe" />
+  </component>
 </project>
