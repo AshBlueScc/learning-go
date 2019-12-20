@@ -6,7 +6,7 @@ import (
 	"github.com/kataras/iris/middleware/recover"
 	"os"
 	"time"
-	utils2 "xorm/千锋/projects/example0_login_project/utils"
+	"xorm/projects/example0_login_project/utils"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 		SetTimeFormat(time.RFC3339)
 
 	app.Use(recover.New())
-	app.Use(utils2.HTTPLogger)
+	app.Use(utils.HTTPLogger)
 
 	initRouter(app)
 

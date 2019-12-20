@@ -13,14 +13,14 @@ func Insert(key string, value string){
 		fmt.Println("redis set value failed >>>", err)
 		return
 	}
-	fmt.Printf("Operation: SET %s %s",key,value)
+	fmt.Printf("Operation: SET %s %s \n",key,value)
 }
 
 //检验key值是否存在
 func Exist(key string) bool{
-	exists, err := redis.Bool(Conn.Do("EXSITS", key))
+	exists, err := redis.Bool(Conn.Do("EXISTS", key))
 	if err != nil {
-		fmt.Println("illegal exception")
+		fmt.Printf("illegal exception %s \n", err)
 	}
 	fmt.Printf("exists or not: %v \n", exists)
 	return exists
@@ -28,13 +28,13 @@ func Exist(key string) bool{
 
 //获取值
 func Get(key string) string {
-	value, err := redis.String(Conn.Do("GET", "test-key"))
+	value, err := redis.String(Conn.Do("GET", key))
 	//value, err := conn.Do("GET", "test-key")		//这个返回的是一个interface
 	if err != nil {
 		fmt.Println("redis get value failed >>>", err)
 		return ""
 	}
-	fmt.Printf("Operation:Get test-key: %s", value)
+	fmt.Printf("Operation:Get %s: %s \n", key, value)
 	return value
 }
 
@@ -83,4 +83,32 @@ func Json2Redis(jsonString map[string]string){
 
 	fmt.Println(imapGet["username"])
 	fmt.Println(imapGet["password"])
+}
+
+//lpush
+func Lpush(key string, values ...string)(){
+	for _, value := range values{
+		_, err := Conn.Do("lpush", key, value)
+		if err != nil {
+			fmt.Printf("redis set failed: %s", err)
+			return
+		}
+	}
+
+	vs, _ := redis.Values(Conn.Do("lrange", key, "0", "100"))
+
+	for _, v := range vs{
+		fmt.Println(string(v.([]byte)))
+	}
+
+}
+
+//管道
+func PipDo()(){
+	Conn.Send("SET", "foo", "bar")
+	Conn.Send("Get", "foo")
+	Conn.Flush()
+	Conn.Receive()
+	v, _ := Conn.Receive()
+	fmt.Println(string(v.([]byte)))
 }

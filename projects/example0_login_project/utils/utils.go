@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	types2 "xorm/千锋/projects/example0_login_project/types"
+	"xorm/projects/example0_login_project/types"
 )
 
 
@@ -67,7 +67,7 @@ func StrToInt64(val string, defaultValue int64) int64 {
 
 func SendMessage(ctx context.Context, statusCode int, message string) {
 	ctx.StatusCode(statusCode)
-	ctx.JSON(types2.ErrorMsg{
+	ctx.JSON(types.ErrorMsg{
 		Message: message,
 	})
 }

@@ -4,18 +4,18 @@ import (
 	"github.com/kataras/iris/context"
 	"log"
 	"os"
-	database2 "xorm/千锋/projects/example0_login_project/database"
+	"xorm/projects/example0_login_project/database"
 )
 
 
 func PostLogin(context context.Context){
-	service := database2.GetService()
+	service := database.GetService()
 
 	name := context.FormValue("name")
 	pwd := context.FormValue("pwd")
 
 
-	var user *database2.User
+	var user *database.User
 	var isAdmin bool
 	user, isAdmin = service.GetByAdminNameAndPassword(name, pwd)
 

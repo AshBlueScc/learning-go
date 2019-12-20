@@ -7,8 +7,10 @@ replace github.com/kataras/iris v11.1.1+incompatible => github.com/kataras/iris 
 require (
 	github.com/CloudyKit/fastprinter v0.0.0-20170127035650-74b38d55f37a // indirect
 	github.com/ajg/form v1.5.1 // indirect
+	github.com/astaxie/beego v1.12.0
 	github.com/fasthttp-contrib/websocket v0.0.0-20160511215533-1f3b11f56072 // indirect
 	github.com/garyburd/redigo v1.6.0
+	github.com/go-redis/redis v6.15.6+incompatible
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/go-xorm/xorm v0.7.9
 	github.com/golang/protobuf v1.3.2
@@ -26,6 +28,7 @@ require (
 	github.com/mwitkow/go-proto-validators v0.2.0
 	github.com/nats-io/nats-server/v2 v2.1.2 // indirect
 	github.com/sergi/go-diff v1.0.0 // indirect
+	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.2.0
 	github.com/smartystreets/goconvey v1.6.4 // indirect
