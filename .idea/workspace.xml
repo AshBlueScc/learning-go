@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redis/go-redis/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/go-redis/example0_connection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/go-redis/example1_operations.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/千锋/beego框架/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/千锋/beego框架/example0_hello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/总结.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.3_数组字符串和切片/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlx/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlx/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlx/mysql/example0_connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlx/mysql/example1_operation.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/redigo/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redigo/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/redigo/example1_operations.go" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redigo/example1_operations.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/千锋/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/database/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/database/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/database/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/database/model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/database/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/database/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/login/admin/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/login/admin/login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/login/admin/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/login/admin/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/types/types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/utils/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/utils/log.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/千锋/projects/example0_login_project/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/projects/example0_login_project/utils/utils.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +61,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gRPC/example0_grpc" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/公司相关/auth" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -109,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build xorm/千锋/beego框架">
+  <component name="RunManager" selected="Go Build.go build xorm/sqlx">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -125,12 +109,12 @@
       <package value="xorm/千锋/beego框架" />
       <method v="2" />
     </configuration>
-    <configuration name="go build xorm/gRPC/example4_grpc和protobuf扩展/example1_rest接口/webService" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build xorm/books/advanced-go-programming-book/ch1-basic/example1.3_array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/gRPC/example4_grpc和protobuf扩展/example1_rest接口/webService/main.go" />
-      <package value="xorm/gRPC/example4_grpc和protobuf扩展/example1_rest接口/webService" />
+      <filePath value="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.3_array/main.go" />
+      <package value="xorm/books/advanced-go-programming-book/ch1-basic/example1.3_array" />
       <method v="2" />
     </configuration>
     <configuration name="go build xorm/gRPC/example6_grpcurl工具/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -141,20 +125,20 @@
       <package value="xorm/gRPC/example6_grpcurl工具/client" />
       <method v="2" />
     </configuration>
-    <configuration name="go build xorm/gRPC/example6_grpcurl工具/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/gRPC/example6_grpcurl工具/server/main.go" />
-      <package value="xorm/gRPC/example6_grpcurl工具/server" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build xorm/redis" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/redis/main.go" />
       <package value="xorm/redis" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build xorm/sqlx" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/sqlx/main.go" />
+      <package value="xorm/sqlx" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -167,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build xorm/sqlx" />
+        <item itemvalue="Go Build.go build xorm/books/advanced-go-programming-book/ch1-basic/example1.3_array" />
         <item itemvalue="Go Build.go build xorm/千锋/beego框架" />
         <item itemvalue="Go Build.go build xorm/redis" />
         <item itemvalue="Go Build.go build xorm/gRPC/example6_grpcurl工具/client" />
-        <item itemvalue="Go Build.go build xorm/gRPC/example6_grpcurl工具/server" />
-        <item itemvalue="Go Build.go build xorm/gRPC/example4_grpc和protobuf扩展/example1_rest接口/webService" />
       </list>
     </recent_temporary>
   </component>

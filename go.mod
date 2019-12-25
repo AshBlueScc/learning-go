@@ -17,6 +17,7 @@ require (
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.12.1
 	github.com/imkira/go-interpol v1.1.0 // indirect
+	github.com/jmoiron/sqlx v1.2.0
 	github.com/json-iterator/go v1.1.8 // indirect
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/kataras/golog v0.0.9 // indirect
