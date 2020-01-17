@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4abfec-e95e-4640-af03-82b710bbeb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.3_数组字符串和切片/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlx/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlx/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlx/mysql/example0_connection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlx/mysql/example1_operation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example0_ 其他/ex0_main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example0_ 其他/ex1_测试左右移.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口/ex0_main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口/ex1_函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口/ex2_方法.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口/ex3_接口.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.3_数组字符串和切片/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.3_数组字符串和切片/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,19 +66,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\千锋\redis\config" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\runnoob" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\千锋" />
-      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\books\advanced-go-programming-book\ch4-rpc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\gRPC\example0_grpc" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\gRPC\example3_grpc进阶\example4_和web服务共存" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\gRPC\example3_grpc进阶\example4_和web服务共存\server" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\gRPC\example3_grpc进阶\example3_截取器" />
       <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\gRPC\example3_grpc进阶\example2_token认证" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\books\advanced-go-programming-book\ch1-basic\example0_ 其他" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\千锋\redis\config" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\runnoob" />
+      <recent name="E:\chengzhen\cz-goland-workspqce\src\GoLearning\千锋" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build xorm/sqlx">
+  <component name="RunManager" selected="Go Build.go build xorm/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -109,6 +109,14 @@
       <package value="xorm/千锋/beego框架" />
       <method v="2" />
     </configuration>
+    <configuration name="go build xorm/books/advanced-go-programming-book/ch1-basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/main.go" />
+      <package value="xorm/books/advanced-go-programming-book/ch1-basic" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build xorm/books/advanced-go-programming-book/ch1-basic/example1.3_array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,20 +125,12 @@
       <package value="xorm/books/advanced-go-programming-book/ch1-basic/example1.3_array" />
       <method v="2" />
     </configuration>
-    <configuration name="go build xorm/gRPC/example6_grpcurl工具/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build xorm/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/gRPC/example6_grpcurl工具/client/main.go" />
-      <package value="xorm/gRPC/example6_grpcurl工具/client" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build xorm/redis" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/redis/main.go" />
-      <package value="xorm/redis" />
+      <filePath value="$PROJECT_DIR$/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口/ex0_main.go" />
+      <package value="xorm/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口" />
       <method v="2" />
     </configuration>
     <configuration name="go build xorm/sqlx" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build xorm/books/advanced-go-programming-book/ch1-basic/example1.4_函数方法和接口" />
+        <item itemvalue="Go Build.go build xorm/books/advanced-go-programming-book/ch1-basic" />
         <item itemvalue="Go Build.go build xorm/sqlx" />
         <item itemvalue="Go Build.go build xorm/books/advanced-go-programming-book/ch1-basic/example1.3_array" />
         <item itemvalue="Go Build.go build xorm/千锋/beego框架" />
-        <item itemvalue="Go Build.go build xorm/redis" />
-        <item itemvalue="Go Build.go build xorm/gRPC/example6_grpcurl工具/client" />
       </list>
     </recent_temporary>
   </component>
